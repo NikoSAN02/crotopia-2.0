@@ -5,7 +5,6 @@ import HomePage from './homepage/page'
 function LendingPage() {
   return (
     <div>
-      Lending Page
       <HomePage/>
     </div>
   )

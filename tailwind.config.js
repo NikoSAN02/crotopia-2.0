@@ -13,6 +13,8 @@ module.exports = {
   theme: {
     colors: {
       'header-bg': '#FFFAF1',
+      'gray-color': '#808080',
+      'bg-page' : '#5E574A'
     },
   },
   darkMode: "class",

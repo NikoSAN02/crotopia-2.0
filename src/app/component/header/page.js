@@ -121,9 +121,9 @@ function Header() {
     <div className='bg-header-bg w-screen'>
     <div className=" flex justify-center items-center gap-6" >
     <div className="h-24 w-24 "><Image src="/images/CRO_logo.png" width="72" height="72"/></div>
-    <Link  href="/"><p className=''>Home</p></Link>
-    <div> <Link href="/component/unityBuild">Unity Build</Link></div>
-    <div> <Link href="/component/burnpage">BURN Page</Link></div>
+    <div><Link  href="/" className='text-gray-color group-hover:text-white text-2xl font-semibold'>Home</Link></div>
+    <div><Link href="/component/unityBuild" className='text-gray-color group-hover:text-white text-2xl font-semibold'>Unity Build</Link></div>
+    <div> <Link href="/component/burnpage" className='text-gray-color group-hover:text-white text-2xl font-semibold'> BURN Page</Link></div>
     <div><button onClick={ () => setSelectWalletPopup(true)} id="accountHolder"><span>Connect Wallet</span></button></div>
     </div>
 
