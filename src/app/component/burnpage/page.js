@@ -59,12 +59,12 @@ function BurnPage() {
             />
         </div>
          {/* Left Arrow */}
-        <div className='group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-96 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-            <BsChevronCompactLeft onClick={prevSlide} size={60} />
+        <div className='absolute  top-[50%] -translate-x-0 translate-y-[-50%] left-96 text-8xl rounded-full p-2 bg-black/20 cursor-pointer'>
+            <BsChevronCompactLeft onClick={prevSlide} className='w-24 h-12 hover:text-side-button-color transition duration-500 ease-in-out'/>
         </div>
         {/* Right Arrow */}
-        <div className='group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-96 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-            <BsChevronCompactRight onClick={nextSlide} size={60} />
+        <div className='absolute top-[50%] -translate-x-0 translate-y-[-50%] right-96 text-8xl rounded-full p-2 bg-black/20 cursor-pointer'>
+            <BsChevronCompactRight onClick={nextSlide} className='w-40 h-12 hover:text-blue-500' />
         </div>
         <div className='flex top-4 justify-center py-2'>
         {slides.map((slide, slideIndex) => (
@@ -73,7 +73,7 @@ function BurnPage() {
             onClick={() => goToSlide(slideIndex)}
             className='text-2xl cursor-pointer'
           >
-            <RxDotFilled />
+            <RxDotFilled className='text-4xl' />
           </div>
         ))}
       </div>

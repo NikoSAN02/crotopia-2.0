@@ -12,9 +12,11 @@ module.exports = {
   ],
   theme: {
     colors: {
-      'header-bg': '#FFFAF1',
+      'header-bg': '#F5ECE1',
       'gray-color': '#808080',
-      'bg-page' : '#5E574A'
+      'bg-page' : '#000',
+      'side-button-color' : 'bdfbf7',
+
     },
   },
   darkMode: "class",
