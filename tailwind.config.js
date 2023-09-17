@@ -11,6 +11,7 @@ module.exports = {
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    extend: {
     colors: {
       'header-bg': '#F5ECE1',
       'gray-color': '#808080',
@@ -18,6 +19,7 @@ module.exports = {
       'side-button-color' : 'bdfbf7',
 
     },
+  }
   },
   darkMode: "class",
   plugins: [nextui()],
